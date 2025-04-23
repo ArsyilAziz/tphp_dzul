@@ -4,7 +4,7 @@
     $total = 120;
 
     // Menggunakan ternary untuk menentukan apakah pelanggan dapat diskon atau tidak
-    $diskon = ($total >= 100) ? "Selamat! Anda mendapatkan diskon 10%." : "Belanja minimal Rp100.000 untuk mendapatkan diskon.";
+    $diskon = ($total >= 100) ? "Selamat! Anda mendapatkan diskon 10%." : "Belanja minimal 100 ribu untuk mendapatkan diskon.";
 
     // menampilkan struk belanja ke pelanggan
     echo "Total Belanja: " . $total . " ribu";// Menampilkan total belanja
